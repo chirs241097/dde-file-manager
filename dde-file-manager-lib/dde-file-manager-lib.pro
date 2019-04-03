@@ -254,7 +254,10 @@ HEADERS += \
     views/dfmsidebarhomeitem.h \
     views/dfmsidebarrootitem.h \
     views/dfmadvancesearchbar.h \
-    shutil/dfmregularexpression.h
+    shutil/dfmregularexpression.h \
+    controllers/masteredmediacontroller.h \
+    controllers/dfmmasteredmediacrumbcontroller.h \
+    models/masteredmediafileinfo.h
 
 SOURCES += \
     controllers/appcontroller.cpp \
@@ -426,7 +429,10 @@ SOURCES += \
     views/dfmsidebarhomeitem.cpp \
     views/dfmsidebarrootitem.cpp \
     views/dfmadvancesearchbar.cpp \
-    shutil/dfmregularexpression.cpp
+    shutil/dfmregularexpression.cpp \
+    controllers/masteredmediacontroller.cpp \
+    controllers/dfmmasteredmediacrumbcontroller.cpp \
+    models/masteredmediafileinfo.cpp
 
 !CONFIG(DISABLE_ANYTHING) {
     HEADERS += shutil/danythingmonitor.h
